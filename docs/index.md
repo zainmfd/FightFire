@@ -1,4 +1,4 @@
- # Problem
+ # Problem  
 
  ![img1](img\1.png)  
    
@@ -28,7 +28,7 @@ Major extinction of animals and plants is due to wildfire.
    Wildfire is mainly due to the drastic change in soil moisture, temperature, and atmospheric pressure. Increasing global warming around the world is one of the main reasons for wildfire. Dried leaves and trees are one of the other reasons for wildfire. Obviously, this will be due to the drought condition of the woods.
 
 
-# Existing system
+# Existing system  
 The current system of forest firefighting is preventive & monitoring in nature. The major Prevention method of wildfire is Firebreak.
   
    ![Firebreak](img\4.jpg)
