@@ -1,4 +1,4 @@
- ### Problem
+ # Problem
 
  ![img1](img\1.png)  
    
@@ -21,14 +21,14 @@ most vulnerable.
 
 Major extinction of animals and plants is due to wildfire.
    
-   ### Reason for wildfire
+# Reason for wildfire
 
    ![Drought](img\3.jpg)
 
    Wildfire is mainly due to the drastic change in soil moisture, temperature, and atmospheric pressure. Increasing global warming around the world is one of the main reasons for wildfire. Dried leaves and trees are one of the other reasons for wildfire. Obviously, this will be due to the drought condition of the woods.
 
 
-   ### Existing system
+# Existing system
 The current system of forest firefighting is preventive & monitoring in nature. The major Prevention method of wildfire is Firebreak.
   
    ![Firebreak](img\4.jpg)
@@ -40,20 +40,20 @@ Satellites are used for wild fire monitoring.NASA’s satellite instruments are 
 [Monitoring system](https://firms.modaps.eosdis.nasa.gov/map/#d:2020-12-07..2020-12-08;@0.0,0.0,3z)
 [Source](https://www.nasa.gov/mission_pages/fires/main/missions/index.html)
 
-### De-merits of existing solution
+# De-merits of existing solution
 
 * Most of the existing solutions will alert after the burning of woods, this will kill lots of animals and plants, and this leads to the extinction of animals and plants.
 * Most of the Solutions can only retrieve coordinates of the affected area and can't help in the rescue mission.
 * All the existing systems can't identify the weather condition of the land area before the origin of the fire.
 * Evacuation of leaving beings in the hazardous area will be a major complication.
 
-### Proposed solution 
+# Proposed solution 
  Fight Fire is a wildfire prediction device that will allow the local fire fighting authority to respond quickly to the wildfire. We know that the wildfire is due to the climatic change in the forest, based on this we monitor the weather condition of the forest using various sensors and record the dramatic increase in atmospheric temperature, decrease in soil moisture, and changes in atmospheric pressure.[(Source)](https://www.c2es.org/content/wildfires-and-climate-change/#:~:text=Climate%20change%20has%20been%20a,in%20the%20Western%20United%20States.&text=Research%20shows%20that%20changes%20in,these%20increases%20in%20wildfire%20risk.)
 
 Fight Fire nodes are fixed in fire-prone area, and by utilizing the mesh network of the node, the firefighting authority can plan for fire prevention. At the same time node identify the presence of humans and animals in a hazardous area.
 ![block1](img\5.PNG)
 
-### Journey:
+# Journey:
 The project is divided into Five categories,
 * Hardware
 * Software
@@ -174,7 +174,7 @@ LoRa transceivers feature a long-range wireless modem that provides ultra-long r
 [Arduino library to support LoRa](https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip)
 
 **Connections**
-The connections are same in both transmitter and receiver.
+The connections are same in both transmitter and receiver.  
 
 | Semtech SX1276/77/78/79 | Arduino |
 | ----------- | ----------- |
