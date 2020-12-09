@@ -1,5 +1,4 @@
  # Problem  
-
  ![img1](img\1.png)  
    
 
@@ -54,18 +53,18 @@ Fight Fire nodes are fixed in fire-prone area, and by utilizing the mesh network
 ![block1](img\5.PNG)
 
 # Journey:
-The project is divided into Five categories,
-* Hardware
-* Software
-* Application/Cloud Development
+The project is divided into Five categories,  
+* Hardware  
+* Software  
+* Application/Cloud Development  
 * 3D Designing
 
 
 #### ELECTRONICS & PROGRAMMING
-Software Used  :-
- * [Arduino IDE](https://www.arduino.cc/en/Main/Software)  For programming 
- * [Eagle](https://www.autodesk.com/products/eagle/free-download) for PCB designing
- * [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) for 3D designing
+Software Used  :-  
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)  For programming   
+* [Eagle](https://www.autodesk.com/products/eagle/free-download) for PCB designing  
+* [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) for 3D designing
 
 
 Whole architecture 
@@ -85,17 +84,17 @@ Initially i use **SHT1x** for measuring the moisture level of the soil, **BME280
 Moisture and temperature of the soil can be measured by using this sensor.The typical temperature resolution is 0.4°C, while typical moisture resolution is 3%RH. With a copper sintered mesh over the sensor, we don’t want to worry about its anticorrosion performance.
 
   
-  **Features**
-* High resolution
-* Durable, stable and reliable
-* Industrial level gadget
-* Serial two-wire interface
+  **Features**  
+  * High resolution  
+  * Durable, stable and reliable  
+  * Industrial level gadget  
+  * Serial two-wire interface
 
-**Specifications**
-* Temperature measuring range: -40 ~ +123.8°C
-* Moisture measuring range: 0 ~ 100% RH
-* Temperature accuracy: ±0.4°C
-* Moisture accuracy: ±3%RH
+**Specifications**  
+* Temperature measuring range: -40 ~ +123.8°C  
+* Moisture measuring range: 0 ~ 100% RH  
+* Temperature accuracy: ±0.4°C  
+* Moisture accuracy: ±3%RH  
 * Wires: Red = VCC (3-5VDC), Black or Green = Ground, Yellow = Clock, Blue = Data.
 
   
@@ -114,15 +113,15 @@ Then you will get a accurate data
  ![SHT1x bug solve serial monitor](img\11.png)
  **2.BME 280**
  ![BME280](img\12.jpg)
-   BME280 is an environmental sensor with temperature, barometric pressure and humidity.This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuracy, and temperature with ±1.0°C accuracy.
-**Features**
-* High sensitive
-* Industrial level gadget
+   BME280 is an environmental sensor with temperature, barometric pressure and humidity.This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuracy, and temperature with ±1.0°C accuracy.  
+   **Features**  
+   * High sensitive  
+   * Industrial level gadget
 
-**Specifications**
-* Humidity is measured to within +/-3%;
-* Atmospheric pressure to within +/-1 hPa. When measuring altitude, you’ll achieve readings that are accurate to within 1 m, or even less;
-* Temperature readings are provided to the nearest degree.
+**Specifications**  
+* Humidity is measured to within +/-3%;  
+* Atmospheric pressure to within +/-1 hPa. When measuring altitude, you’ll achieve readings that are accurate to within 1 m, or even less;  
+* Temperature readings are provided to the nearest degree.  
 * VCC(3.3V-5V),GND(GND),SCL(SCL),SDA(SDA)
   
 [Adafruit_BME280 library supportfor arduino (code in github repository)](https://github.com/adafruit/Adafruit_BME280_Library)
@@ -136,17 +135,17 @@ Connect the BME280 based on the above connection and attach the .zip library fil
  **3.Doppler Radar sensor**
  ![BME280 testing](img\14.jpg)
 
-This is a motion sensor with 360 degree no blind angle detection and maximum 7m sensing distance.this is a digital sensor so this is easy to implement in our use case.
- **Features:**
-* Operating Voltage: 4-28V
-* Operating Current: 2.8mA (typical); 3mA (max)
-* Operating Temperature: -20~80 celsius
-* Storage Temperature: -40~100 celsius
+This is a motion sensor with 360 degree no blind angle detection and maximum 7m sensing distance.this is a digital sensor so this is easy to implement in our use case.  
+**Features:**  
+* Operating Voltage: 4-28V  
+* Operating Current: 2.8mA (typical); 3mA (max)  
+* Operating Temperature: -20~80 celsius  
+* Storage Temperature: -40~100 celsius  
 * Board Size: 35.9 X 17.3mm/1.41 X 0.68inch
 
-**Specifications:**
-* Detection Distance: 5-9m
-* 360 degree motion detection
+**Specifications:**  
+* Detection Distance: 5-9m  
+* 360 degree motion detection  
 * VIN(5V),GND(GND),OUT(to a digital pin)
 
 Just connect all the pin that mention above ,then upload a digitalread example code.When ever there is a motion it will give a high value(1) ,or when there is no any motion it will return (0).
@@ -156,9 +155,9 @@ Just connect all the pin that mention above ,then upload a digitalread example c
 Flame Sensor can be used to detect fire source or other light sources of the wavelength in the range of 760nm - 1100 nm
 
 **Feature**
-* High Photo Sensitivity
-* Fast Response Time
-* Easy to use
+* High Photo Sensitivity  
+* Fast Response Time  
+* Easy to use  
 * Sensitivity is adjustable
 
 
@@ -171,7 +170,7 @@ In this project data transmission is using LoRa SX1276
 LoRa transceivers feature a long-range wireless modem that provides ultra-long range spread spectrum communication and high interference immunity while minimizing current consumption. Our patented modulation technique allows transceivers within this product family to achieve sensitivities of -137dBm and -148dBm respectively. The high sensitivity combined with the +22dBm power amplifier make these transceivers optimal for any application requiring range or robustness. LoRa technology provides significant advantages in both blocking and selectivity over conventional modulation techniques, solving the traditional design compromise between range, interference immunity and energy consumption. The LoRa RF platform complements M2M cellular infrastructure and provides a low-cost solution to connecting battery operated devices to the network infrastructure.
 
 [SX1276-7-8-9 Datasheet](https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf)
-[Arduino library to support LoRa](https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip)
+  [Arduino library to support LoRa](https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip)
 
 **Connections**
 The connections are same in both transmitter and receiver.  
@@ -206,19 +205,19 @@ We can mill our pcb form [Jlcpcb](https://jlcpcb.com/),[pcbway](https://www.pcbw
 ![pcb2](img\30.jpg)
 
 
-**Components used for node**
-1-Atmega328=1
-2-NCP1117 3.3v - SOT223=1
-3-Push Button - 3112P SMD=1
-4-Capacitor 10uf - 1206 SMD=2
-5-Resistor 10k - 1206 SMD=2
-6-Capacitor 22pf=2
-7-Crysta l16Mhz=1
-8-LED RED - 1206 SMD=2
-9-Resistor 220ohm - 1206 SMD=2
-10-FTDI Male Header - SMD=1
-11-SMD SPI Header=1
-12-Header pin
+**Components used for node**  
+1-Atmega328=1  
+2-NCP1117 3.3v - SOT223=1  
+3-Push Button - 3112P SMD=1  
+4-Capacitor 10uf - 1206 SMD=2  
+5-Resistor 10k - 1206 SMD=2  
+6-Capacitor 22pf=2  
+7-Crysta l16Mhz=1  
+8-LED RED - 1206 SMD=2  
+9-Resistor 220ohm - 1206 SMD=2  
+10-FTDI Male Header - SMD=1  
+11-SMD SPI Header=1  
+12-Header pin  
 13-ISP Programmer =1
 
 **Node using basic components**
@@ -228,7 +227,7 @@ Install all the given library in Arduino IDE and let's begin for testing
  [Code](****)
 
  **Some time the programme didn't upload,at that time unmount or disconnect the SPI connection to LoRa.**
- In here we send the data in the form of json. it help us to call all the data into the database.Then we want to setup the GATEWAY(bridge b/w node and server. In gateway we use an ESP32 interface with a LoRa module.
+ In here we send the data in the form of json. it help us to call all the data into the database.Then we want to setup the GATEWAY(bridge b/w node and server. In gateway we use an ESP32 interface with a LoRa module.  
  | Semtech SX1276/77/78/79 | ESP32 |
  | ----------- | ----------- |
  | MISO | D19 |
@@ -252,16 +251,16 @@ I publish-subscribe messaging pattern requires a message broker.so here am using
 When we are using our PC first enable SSH in PI  
 ```$ ssh pi@<IP>```
 
-Then install  Mosquitto broker by typing 
+Then install  Mosquitto broker by typing  
 ```$ sudo apt-get install mosquitto```
 ![Mosquitto](IMG\22.PNG)
-and i installed Mosquitto Clinets by typing
-```$ sudo apt-get install mosquitto-clients```
-![Mosquitto Clinets](img\23.png)
+and i installed Mosquitto Clinets by typing  
+```$ sudo apt-get install mosquitto-clients```  
+![Mosquitto Clinets](img\23.png)  
 Now i are successfully installed MQTT Broker
-```$ mosquitto_sub -h <ip> -t <topic name>```
- I subscribed the  MQTT topic that we used for sending from the gateway.
- ![result](img\24.png)
+```$ mosquitto_sub -h <ip> -t <topic name>```  
+I subscribed the  MQTT topic that we used for sending from the gateway.  
+![result](img\24.png)
  Then we need to install node red, influx DB and grafana for data visualisation.
 Here node red act as a conditioning , grafana visualise the data in dashboard and all data is stored in InfluxDB.
 For installation of [node red](https://nodered.org/docs/hardware/raspberrypi)
