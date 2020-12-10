@@ -26,12 +26,7 @@ Major extinction of animals and plants is due to wildfire.
 
 
 
-# De-merits of existing solution
 
-* Most of the existing solutions will alert after the burning of woods, this will kill lots of animals and plants, and this leads to the extinction of animals and plants.
-* Most of the Solutions can only retrieve coordinates of the affected area and can't help in the rescue mission.
-* All the existing systems can't identify the weather condition of the land area before the origin of the fire.
-* Evacuation of leaving beings in the hazardous area will be a major complication.
 
 # Proposed solution 
  Fight Fire is a wildfire prediction device that will allow the local fire fighting authority to respond quickly to the wildfire. We know that the wildfire is due to the climatic change in the forest, based on this we monitor the weather condition of the forest using various sensors and record the dramatic increase in atmospheric temperature, decrease in soil moisture, and changes in atmospheric pressure.[(Source)](https://www.c2es.org/content/wildfires-and-climate-change/#:~:text=Climate%20change%20has%20been%20a,in%20the%20Western%20United%20States.&text=Research%20shows%20that%20changes%20in,these%20increases%20in%20wildfire%20risk.)
