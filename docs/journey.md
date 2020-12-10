@@ -169,7 +169,7 @@ We can mill our pcb form [Jlcpcb](https://jlcpcb.com/),[pcbway](https://www.pcbw
 ![node setup](img/21.png)
 
 Install all the given library in Arduino IDE and let's begin for testing
- [Code](****)
+ [Code](https://github.com/zainmfd/FightFire/blob/main/fightfire_node.ino)
 
  **Some time the programme didn't upload,at that time unmount or disconnect the SPI connection to LoRa.**
  In here we send the data in the form of json. it help us to call all the data into the database.Then we want to setup the GATEWAY(bridge b/w node and server. In gateway we use an ESP32 interface with a LoRa module.  
@@ -186,7 +186,7 @@ Install all the given library in Arduino IDE and let's begin for testing
 |DIO0 | D2|
    
    Now upload the programme given below into ESP32.
-  [Code](****)  
+  [Code](https://github.com/zainmfd/FightFire/blob/main/fightfire_gateway.ino)  
 #### Initially I set up a local server in Raspberry pi 3B+
 **[MQTT](http://mqtt.org/)**
 I chose MQTT (Message Queuing Telemetry Transport) protocol other than traditional HTTP, because it is a special machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
