@@ -173,8 +173,9 @@ Install all the given library in Arduino IDE and let's begin for testing
 
  **Some time the programme didn't upload,at that time unmount or disconnect the SPI connection to LoRa.**
  In here we send the data in the form of json. it help us to call all the data into the database.Then we want to setup the GATEWAY(bridge b/w node and server. In gateway we use an ESP32 interface with a LoRa module.  
+
  | Semtech SX1276/77/78/79 | ESP32 |
- | ----------- | ----------- |
+| ----------- | ----------- |
  | MISO | D19 |
  | MOSI | D23 |
  | SCK | D18 |
