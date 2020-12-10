@@ -20,16 +20,3 @@ most vulnerable.
 [source](https://theecologist.org/2020/sep/11/forest-fires-india)
 
 Major extinction of animals and plants is due to wildfire.
-   
-
-
-
-
-
-
-
-
-
-**Problem's that I face in wildfire prediction**
-* We know that 20.4% of forests are the fire-prone area in India, and 95% of wildfire ignited due to human activity after the atmosphere crossing a particular atmospheric condition. In the summer season most of the fire-prone forest land area in that particular threshold atmospheric condition to ignite the fire, So that the distribution of force to take precautions will be a big deal.  
-* Routing a path to entering a big machine like a fire engine will not be possible inside the forest.
