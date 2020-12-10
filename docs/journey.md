@@ -186,8 +186,7 @@ Install all the given library in Arduino IDE and let's begin for testing
 |DIO0 | D2|
    
    Now upload the programme given below into ESP32.
-  [Code](****)
-
+  [Code](****)  
 #### Initially I set up a local server in Raspberry pi 3B+
 **[MQTT](http://mqtt.org/)**
 I chose MQTT (Message Queuing Telemetry Transport) protocol other than traditional HTTP, because it is a special machine-to-machine (M2M)/"Internet of Things" connectivity protocol. It was designed as an extremely lightweight publish/subscribe messaging transport. It is useful for connections with remote locations where a small code footprint is required and/or network bandwidth is at a premium.
