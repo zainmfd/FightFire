@@ -24,7 +24,7 @@ Node
 ### Sensor Module
 Initially i use **SHT1x** for measuring the moisture level of the soil, **BME280**  for to measure the temperature,**Doppler Radar** sensor , **Flame Sensor**
 
- ### 1.SHT1x
+### 1.SHT1x
 ![sht1x](img/8.jpg)  
 Moisture and temperature of the soil can be measured by using this sensor.The typical temperature resolution is 0.4°C, while typical moisture resolution is 3%RH. With a copper sintered mesh over the sensor, we don’t want to worry about its anticorrosion performance.
 
@@ -227,6 +227,6 @@ I use Fusion 360 for 3D designing.
 ![3d2](img/32.png)
 [STL File]()
  
- #### Finally i create a monitoring system
+  #### Finally i create a monitoring system
 ![fightfire img](img/28.jpg)
 ![dashboard](img/29.png)
