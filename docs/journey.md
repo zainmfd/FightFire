@@ -129,7 +129,8 @@ The connections are same in both transmitter and receiver.
 | MOSI| MOSI|
 |NSS | 10|
 | RESET| 9|
-|DIO0 | 2|
+|DIO0 | 2|  
+
 Attach the above LoRa library file to arduino IDE and use the example code and run it.
 
 **Testing**
@@ -173,19 +174,19 @@ Install all the given library in Arduino IDE and let's begin for testing
 
  **Some time the programme didn't upload,at that time unmount or disconnect the SPI connection to LoRa.**
  In here we send the data in the form of json. it help us to call all the data into the database.Then we want to setup the GATEWAY(bridge b/w node and server. In gateway we use an ESP32 interface with a LoRa module.  
-
- | Semtech SX1276/77/78/79 | ESP32 |
+  
+  | Semtech SX1276/77/78/79 | ESP32 |
 | ----------- | ----------- |
- | MISO | D19 |
- | MOSI | D23 |
- | SCK | D18 |
- | RESET | D14 |
- | NSS | D5 |
- | 3.3V | 3.3V|
- | DIO0 | D2 |
- | GND | GND |
- 
- Now upload the programme given below into ESP32.
+|VCC  |3.3V|
+|GND |GND|
+|MISO | D19|
+|SCK | D18|
+| MOSI| D23|
+|NSS | D5|
+| RESET| D14|
+|DIO0 | D2|
+   
+   Now upload the programme given below into ESP32.
   [Code](****)
 
 #### Initially I set up a local server in Raspberry pi 3B+
