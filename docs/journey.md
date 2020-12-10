@@ -1,13 +1,13 @@
-# Journey:
-   The project is divided into Five categories,  
+# Journey:  
+#### The project is divided into Five categories,  
 * Hardware  
 * Software  
 * Application/Cloud Development  
 * 3D Designing
 
 
-#### ELECTRONICS & PROGRAMMING
-Software Used  :-  
+### ELECTRONICS & PROGRAMMING
+#### Software Used  :-  
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)  For programming   
 * [Eagle](https://www.autodesk.com/products/eagle/free-download) for PCB designing  
 * [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) for 3D designing
@@ -80,14 +80,14 @@ Connect the BME280 based on the above connection and attach the .zip library fil
  ![BME280 testing](img/14.jpg)
 
 This is a motion sensor with 360 degree no blind angle detection and maximum 7m sensing distance.this is a digital sensor so this is easy to implement in our use case.  
-**Features:**  
+#### Features:  
 * Operating Voltage: 4-28V  
 * Operating Current: 2.8mA (typical); 3mA (max)  
 * Operating Temperature: -20~80 celsius  
 * Storage Temperature: -40~100 celsius  
 * Board Size: 35.9 X 17.3mm/1.41 X 0.68inch
 
-**Specifications:**  
+#### Specifications:  
 * Detection Distance: 5-9m  
 * 360 degree motion detection  
 * VIN(5V),GND(GND),OUT(to a digital pin)
@@ -98,7 +98,7 @@ Just connect all the pin that mention above ,then upload a digitalread example c
 ![flm sensor](img/15.jpg)
 Flame Sensor can be used to detect fire source or other light sources of the wavelength in the range of 760nm - 1100 nm
 
-**Feature**
+#### Feature
 * High Photo Sensitivity  
 * Fast Response Time  
 * Easy to use  
