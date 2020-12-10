@@ -46,7 +46,7 @@ Moisture and temperature of the soil can be measured by using this sensor.The ty
  [Arduino library to support SHT1x-series](https://github.com/practicalarduino/SHT1x)
 
    
- #### Testing  
+#### Testing  
  When we connect all the pins in the form of given above we got an error like this.  
   ![SHT1x bug](img/9.jpg)
   
