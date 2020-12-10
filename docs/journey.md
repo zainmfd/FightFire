@@ -1,5 +1,5 @@
 # Journey:
-The project is divided into Five categories,  
+   The project is divided into Five categories,  
 * Hardware  
 * Software  
 * Application/Cloud Development  
@@ -29,13 +29,13 @@ Initially i use **SHT1x** for measuring the moisture level of the soil, **BME280
 Moisture and temperature of the soil can be measured by using this sensor.The typical temperature resolution is 0.4°C, while typical moisture resolution is 3%RH. With a copper sintered mesh over the sensor, we don’t want to worry about its anticorrosion performance.
 
   
-  **Features**  
+#### Features
   * High resolution  
   * Durable, stable and reliable  
   * Industrial level gadget  
   * Serial two-wire interface
 
-**Specifications**  
+#### Specifications  
   * Temperature measuring range: -40 ~ +123.8°C   
   * Moisture measuring range: 0 ~ 100% RH   
   * Moisture measuring range: 0 ~ 100% RH   
@@ -58,11 +58,11 @@ Then you will get a accurate data
  **2.BME 280**
  ![BME280](img/12.jpg)
    BME280 is an environmental sensor with temperature, barometric pressure and humidity.This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuracy, and temperature with ±1.0°C accuracy.  
-   **Features**  
+#### Features  
    * High sensitive  
    * Industrial level gadget
 
-**Specifications**  
+#### Specifications  
 * Humidity is measured to within +/-3%;  
 * Atmospheric pressure to within +/-1 hPa. When measuring altitude, you’ll achieve readings that are accurate to within 1 m, or even less;  
 * Temperature readings are provided to the nearest degree.  
