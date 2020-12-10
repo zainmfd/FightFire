@@ -21,10 +21,10 @@ Node
   
   ![node](img/7.png)
     
-#### Sensor Module
+### Sensor Module
 Initially i use **SHT1x** for measuring the moisture level of the soil, **BME280**  for to measure the temperature,**Doppler Radar** sensor , **Flame Sensor**
 
- **1.SHT1x**
+ ### 1.SHT1x
 ![sht1x](img/8.jpg)  
 Moisture and temperature of the soil can be measured by using this sensor.The typical temperature resolution is 0.4°C, while typical moisture resolution is 3%RH. With a copper sintered mesh over the sensor, we don’t want to worry about its anticorrosion performance.
 
@@ -46,7 +46,7 @@ Moisture and temperature of the soil can be measured by using this sensor.The ty
  [Arduino library to support SHT1x-series](https://github.com/practicalarduino/SHT1x)
 
    
- **Testing**
+ #### Testing
  When we connect all the pins in the form of given above we got an error like this.  
   ![SHT1x bug](img/9.jpg)
   
@@ -55,7 +55,7 @@ Moisture and temperature of the soil can be measured by using this sensor.The ty
   (this is also mentioned in datasheet)
 Then you will get a accurate data
  ![SHT1x bug solve serial monitor](img/11.png)
- **2.BME 280**
+ ### 2.BME 280
  ![BME280](img/12.jpg)
    BME280 is an environmental sensor with temperature, barometric pressure and humidity.This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuracy, and temperature with ±1.0°C accuracy.  
 #### Features  
@@ -72,11 +72,11 @@ Then you will get a accurate data
 [Datasheets](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads)
 
 
-**Testing**
+#### Testing
 Connect the BME280 based on the above connection and attach the .zip library file
  ![BME280 testing](img/13.png)
 
- **3.Doppler Radar sensor**
+ ### 3.Doppler Radar sensor
  ![BME280 testing](img/14.jpg)
 
 This is a motion sensor with 360 degree no blind angle detection and maximum 7m sensing distance.this is a digital sensor so this is easy to implement in our use case.  
@@ -94,7 +94,7 @@ This is a motion sensor with 360 degree no blind angle detection and maximum 7m 
 
 Just connect all the pin that mention above ,then upload a digitalread example code.When ever there is a motion it will give a high value(1) ,or when there is no any motion it will return (0).
 
-**4.Flame Sensor** 
+### 4.Flame Sensor 
 ![flm sensor](img/15.jpg)
 Flame Sensor can be used to detect fire source or other light sources of the wavelength in the range of 760nm - 1100 nm
 
@@ -132,7 +132,7 @@ The connections are same in both transmitter and receiver.
 
 Attach the above LoRa library file to arduino IDE and use the example code and run it.
 
-**Testing**
+#### Testing
 WITHOUT USING ANTENNA DO NOT POWER UP YOU LoRa, IT MAY BE DAMAGED.
 ![LoRa Test1](img/17.jpg)
 ![LoRa Test2](img/18.jpg)
@@ -227,6 +227,6 @@ I use Fusion 360 for 3D designing.
 ![3d2](img/32.png)
 [STL File]()
  
- **Finally i create a monitoring system**
+ #### Finally i create a monitoring system
 ![fightfire img](img/28.jpg)
 ![dashboard](img/29.png)
