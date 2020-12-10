@@ -7,7 +7,7 @@
 
 
 ### ELECTRONICS & PROGRAMMING
-#### Software Used  :-  
+#### Software Used:-  
 * [Arduino IDE](https://www.arduino.cc/en/Main/Software)  For programming   
 * [Eagle](https://www.autodesk.com/products/eagle/free-download) for PCB designing  
 * [Fusion360](https://www.autodesk.com/products/fusion-360/students-teachers-educators) for 3D designing
@@ -199,7 +199,7 @@ When we are using our PC first enable SSH in PI
 
 Then install  Mosquitto broker by typing  
 ```$ sudo apt-get install mosquitto```
-![Mosquitto](IMG/22.PNG)
+![Mosquitto](IMG/22.png)
 and i installed Mosquitto Clinets by typing  
 ```$ sudo apt-get install mosquitto-clients```  
 ![Mosquitto Clinets](img/23.png)  
