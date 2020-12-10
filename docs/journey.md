@@ -35,7 +35,7 @@ Moisture and temperature of the soil can be measured by using this sensor.The ty
   * Industrial level gadget  
   * Serial two-wire interface
 
-**Specifications**  
+# Specifications  
 * Temperature measuring range: -40 ~ +123.8°C  
 * Moisture measuring range: 0 ~ 100% RH  
 * Temperature accuracy: ±0.4°C  
@@ -114,8 +114,8 @@ In this project data transmission is using LoRa SX1276
 ![LoRa SX1276](img/16.jpg)
 LoRa transceivers feature a long-range wireless modem that provides ultra-long range spread spectrum communication and high interference immunity while minimizing current consumption. Our patented modulation technique allows transceivers within this product family to achieve sensitivities of -137dBm and -148dBm respectively. The high sensitivity combined with the +22dBm power amplifier make these transceivers optimal for any application requiring range or robustness. LoRa technology provides significant advantages in both blocking and selectivity over conventional modulation techniques, solving the traditional design compromise between range, interference immunity and energy consumption. The LoRa RF platform complements M2M cellular infrastructure and provides a low-cost solution to connecting battery operated devices to the network infrastructure.
 
-[SX1276-7-8-9 Datasheet](https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf)
-  [Arduino library to support LoRa](https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip)
+[SX1276-7-8-9 Datasheet](https://www.semtech.com/uploads/documents/DS_SX1276-7-8-9_W_APP_V6.pdf)  
+[Arduino library to support LoRa](https://github.com/sandeepmistry/arduino-LoRa/archive/master.zip)
 
 **Connections**
 The connections are same in both transmitter and receiver.  
