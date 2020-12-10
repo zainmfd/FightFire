@@ -4,8 +4,8 @@ theme:
 
 
 nav:
-  - Home: Home.md
-  - Problem: index.md
+  - Home: index.md
+  - Problem: Home.md
   - Reason for wildfire: Reason-for-wildfire.md
   - Existing system: Existing-system.md
   - De-merits of existing solution: De-merits-of-existing-solution.md
