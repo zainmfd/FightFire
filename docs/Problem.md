@@ -1,6 +1,6 @@
  # Problem
 
- ![img1](img\1.png)  
+ ![img1](img/1.png)  
    
 
  When we look around, our nature we can see N number of natural calamities. 
@@ -15,7 +15,7 @@
  1,52,421 square km (21.40 percent) is either highly or extremely fire-prone.
  The forests of Mizoram, Chhattisgarh, Manipur, Odisha, and Madhya Pradesh are 
 most vulnerable.
- ![Fire prone area](img\2.png)
+ ![Fire prone area](img/2.png)
 
 [source](https://theecologist.org/2020/sep/11/forest-fires-india)
 
