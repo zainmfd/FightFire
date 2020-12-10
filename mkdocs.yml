@@ -1,3 +1,14 @@
 site_name: Fight Fire
 theme:
   name: material
+
+  nav:
+    - Home: index.md
+    - Documentation:
+      -Problem: index.md
+      -Reason for wildfire: Reason-for-wildfire.md
+      -Existing system: Existing-system.md
+      -De-merits of existing solution: De-merits-of-existing-solution.md
+      -Proposed solution: Proposed-solution.md
+      -Journey: journey.md
+      -Problem's that I face in wildfire prediction: Problem's-that-I-face-in-wildfire-prediction.md 
