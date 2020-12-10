@@ -1,5 +1,5 @@
 # Journey:  
-#### The project is divided into Five categories,  
+#### The project is divided into Four categories,  
 * Hardware  
 * Software  
 * Application/Cloud Development  
@@ -221,7 +221,7 @@ The data will receive in this form because we send our data in the form of json.
 For full documentation of node-red ,[influxDB and grafana](https://www.youtube.com/watch?v=JdV4x925au0) ,for more detail of [grafana](https://grafana.com/docs/installation/debian/) ,and for [influx DB](https://www.influxdata.com/products/influxdb-overview/).
 Next i purchase a [digitalocean](https://www.digitalocean.com/products/linux-distribution/ubuntu/) server.And finally I setup full full hardware and dashboard in grafana.
 
-#### 3D Designing
+### 3D Designing
 I use Fusion 360 for 3D designing.
 ![3d1](img/33.png)
 ![3d2](img/32.png)
