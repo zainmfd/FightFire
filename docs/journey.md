@@ -68,7 +68,7 @@ Then you will get a accurate data
 * Temperature readings are provided to the nearest degree.  
 * VCC(3.3V-5V),GND(GND),SCL(SCL),SDA(SDA)
   
-[Adafruit_BME280 library supportfor arduino (code in github repository)](https://github.com/adafruit/Adafruit_BME280_Library)
+[Adafruit_BME280 library supportfor arduino (code in github repository)](https://github.com/adafruit/Adafruit_BME280_Library)  
 [Datasheets](https://learn.adafruit.com/adafruit-bme280-humidity-barometric-pressure-temperature-sensor-breakout/downloads)
 
 
