@@ -35,14 +35,13 @@ Moisture and temperature of the soil can be measured by using this sensor.The ty
   * Industrial level gadget  
   * Serial two-wire interface
 
-# Specifications  
-* Temperature measuring range: -40 ~ +123.8°C  
-* Moisture measuring range: 0 ~ 100% RH  
-* Temperature accuracy: ±0.4°C  
-* Moisture accuracy: ±3%RH  
-* Wires: Red = VCC (3-5VDC), Black or Green = Ground, Yellow = Clock, Blue = Data.
+**Specifications**  
+  * Temperature measuring range: -40 ~ +123.8°C   
+  * Moisture measuring range: 0 ~ 100% RH   
+  * Moisture measuring range: 0 ~ 100% RH   
+  * Moisture accuracy: ±3%RH  
+  * Wires: Red = VCC (3-5VDC), Black or Green = Ground, Yellow = Clock, Blue = Data.
 
-  
  [Datasheet](http://www.seeedstudio.com/document/rar/datasheet.zip)  
  [Arduino library to support SHT1x-series](https://github.com/practicalarduino/SHT1x)
 
